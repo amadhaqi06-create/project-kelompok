@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator | Patungan Cerdas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Patungan Cerdas</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="kalkulator.html">Kalkulator</a></li>
+                <li><a href="panduan.html">Panduan</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="kontainer">
+            <h2>Kalkulator Split Bill</h2>
+            <p>Masukkan tagihan, jumlah orang, lalu pilih tip.</p>
+
+            <div class="kartu-kalkulator">
+                <label for="input-tagihan">Total Tagihan (Rp)</label>
+                <input type="number" id="input-tagihan" placeholder="Contoh: 150000">
+
+                <label for="input-orang">Jumlah Orang</label>
+                <input type="number" id="input-orang" placeholder="Contoh: 4">
+
+                <div class="tombol-grid">
+                    <button id="btn-tip-0"  type="button">Tanpa Tip</button>
+                    <button id="btn-tip-5"  type="button">Tip 5%</button>
+                    <button id="btn-tip-10" type="button">Tip 10%</button>
+                    <button id="btn-tip-15" type="button">Tip 15%</button>
+                </div>
+
+                <button id="btn-reset" class="hapus" type="button">Reset</button>
+
+                <p id="hasil" class="hasil">Per orang bayar: Rp 0</p>
+                <p id="statistik" class="teks-kecil">Riwayat transaksi dihitung: 0</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>&copy; 2026 Project Kolaborasi Git | Pemrograman Web Dasar</footer>
+
+    <!-- ✅ DIPERBAIKI: path lengkap ke folder js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
