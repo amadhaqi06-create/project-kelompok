@@ -181,3 +181,22 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+.tips {
+    background: #90aadd;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 24px 0;
+
+}
+
+.tips h3 {
+    margin-top: 0;
+}
+
+body.halaman-panduan {
+    background: #c7d4e6;
+}
+
+
+
+
