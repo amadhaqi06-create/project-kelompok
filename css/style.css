@@ -182,7 +182,7 @@ footer {
     }
 }
 .tips {
-    background: #90aadd;
+    background: #bec8db;
     border-radius: 8px;
     padding: 16px 20px;
     margin: 24px 0;
@@ -191,10 +191,15 @@ footer {
 
 .tips h3 {
     margin-top: 0;
+
+}
+
+.tips p {
+    text-align:left
 }
 
 body.halaman-panduan {
-    background: #c7d4e6;
+    background: #6db3e2;
 }
 
 
