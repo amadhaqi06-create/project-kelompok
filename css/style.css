@@ -212,6 +212,30 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+.tips {
+    background: #8c8e91;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 24px 0;
+
+}
+
+.tips h3 {
+    margin-top: 0;
+
+}
+
+.tips p {
+    text-align:left
+}
+
+body.halaman-panduan {
+    background: #dadddf;
+}
+
+
+
+
 
 body.halaman-tentang {
     background-color: navajowhite;
